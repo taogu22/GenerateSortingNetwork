@@ -1,3 +1,6 @@
+# import sys, os
+# sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import time
 from primitives import all_binary_inputs, apply_layer, total_inversions
 from candidates import greedy_build
